@@ -1,22 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KOKOA Clone coding 2022</title>
+    <title>Welcome to KOKOA Clone</title>
 </head>
 <body>
+    <!-- BEM (class) used-->
+    <!-- status-bar-->
     <div class="status-bar">
-        <div class="status-bar__column"></div>
+        <div class="status-bar__column">
             <span>No Service</span>
             <!-- To Do : Wifi-->
-        <div class="status-bar__column"></div>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
             <span>18:43</span>
-        <div class="status-bar__column"></div>
+        </div>
+        <div class="status-bar__column">
             <span>11%</span>
             <!-- To Do : Battery-->
+            <i class="fa-solid fa-battery-half fa-lg"></i>
             <!-- To Do : Lightning-->
+            <i class="fa-solid fa-bolt"></i>
+        </div>
     </div>
+
+    <!-- Welcome header-->
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KOKOA Clone</h1>
+        <P class="wlecome-heaeer__text">
+            If you have a KOKOA Account, log in with your email or phone number.
+        </P>
+    </header>
+
+    <!-- ID used -->
+    <!-- Form-->
+    <form id="login-form">
+        <input type="text" required placeholder="Email or phone number">
+        <input type="password" required placeholder="password">
+        <input type="submit" value="Log In">
+        <input type="submit" value="Sign Up">
+        <a href="#">Find KOKOA Account or Password</a>
+    </form>
+
+    <!-- FontAwesome Javascript-->
+    <script 
+        src="https://kit.fontawesome.com/b89ff22812.js" crossorigin="anonymous"
+    ></script>
 </body>
 </html>
