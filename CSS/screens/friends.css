@@ -6,7 +6,7 @@
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 #friends-display-link i{
     color: rgba(0, 0, 0, 0.2);
@@ -16,7 +16,7 @@
 }
 .friens-screen__channel {
     margin-top: 25px;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: var(--main-border);
     padding-top: 15px
 }
 .friens-screen__channel-hader {
